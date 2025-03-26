@@ -3,9 +3,9 @@
 This is a challenge to create a simple CI/CD workflow that will trigger on push.
 
 **Technologyies used**
-Git
-VS code
-Github
+- Git
+- VS code
+- Github
 
 **Steps**
 - Create a github repo
