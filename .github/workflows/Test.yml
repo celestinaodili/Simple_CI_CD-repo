@@ -1,0 +1,23 @@
+name: CI/CD Pipeline
+
+on:
+  # Triggers the workflow on push events
+  push:
+    branches:
+      - master
+      - Development
+      - Testing
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: List Files in Repository
+        run: ls -la  # Optional step to list files
+
+      - name: Run a Notification Script
+        run: echo "Hello, a new file has been successfully pushed to your repository!"
