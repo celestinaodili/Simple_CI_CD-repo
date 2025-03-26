@@ -1,13 +1,13 @@
-CI/CD CHALLENGE
+**CI/CD CHALLENGE**
 
 This is a challenge to create a simple CI/CD workflow that will trigger on push.
-Technologyies used
 
+**Technologyies used**
 Git
 VS code
 Github
-Steps
 
+**Steps**
 - Create a github repo
 - Create a README.md file in VS code
 - Initialise git, add your file, commit and push to your gitgub repository
